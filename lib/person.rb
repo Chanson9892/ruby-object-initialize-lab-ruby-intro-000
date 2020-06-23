@@ -1,16 +1,8 @@
 class Person
-  def initialize(dog_name)
-      @name = dog_name
-    end
-    def name
-      @name
-    end
-
-    def breed=(dog_breed)
-        @breed = dog_breed
-    end
-    def breed
-        @breed
-    end
-
+  def initialize(person_name)
+      @name = person_name
   end
+  def name
+      @name
+  end
+end
